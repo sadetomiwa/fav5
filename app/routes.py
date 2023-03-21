@@ -6,6 +6,6 @@ def hello_world():
     return render_template('index.html')
 
 
-@app.route('/test')
+@app.route('/fav')
 def hello_test():
-    return 'This is a testKKKK!' 
+    return render_template('fav.html')
