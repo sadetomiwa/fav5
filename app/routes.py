@@ -1,7 +1,5 @@
-from flask import Flask
+from app import app
 
-
-app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
@@ -11,6 +9,3 @@ def hello_world():
 @app.route('/test')
 def hello_test():
     return 'This is a testKKKK!' 
-
-
-
